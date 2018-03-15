@@ -1,0 +1,7 @@
+Blockly.Msg.WEBDUINO_PHOTOCELL = "光敏電阻";
+Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_LEFT = "左上";
+Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_RIGHT = "右上";
+Blockly.Msg.WEBDUINO_PHOTOCELL_DETECTED = "開始偵測";
+Blockly.Msg.WEBDUINO_PHOTOCELL_DO = "執行";
+Blockly.Msg.WEBDUINO_PHOTOCELL_VAL = "偵測的數值";
+Blockly.Msg.WEBDUINO_PHOTOCELL_STOP = "停止偵測";

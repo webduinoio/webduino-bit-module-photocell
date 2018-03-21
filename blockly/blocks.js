@@ -5,8 +5,8 @@ Blockly.Blocks['photocell_new'] = {
   init: function () {
     this.appendDummyInput()
       .appendField(new Blockly.FieldDropdown([
-        [Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_LEFT, '36'],
-        [Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_RIGHT, '39'],
+        [Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_LEFT, '0'],
+        [Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_RIGHT, '3'],
       ]), 'pin_')
       .appendField(Blockly.Msg.WEBDUINO_PHOTOCELL);
     this.setOutput(true);

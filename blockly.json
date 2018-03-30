@@ -5,7 +5,7 @@
     "photocell_val",
     "photocell_stop"
   ],
-  "category": "catBoardGroup",
+  "category": "toolbox",
   "scripts": [
     "blockly/blocks.js",
     "blockly/javascript.js"

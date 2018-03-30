@@ -1,4 +1,4 @@
-<category id="catPhotocell" index="6">
+<category id="catPhotocell" index="8">
   <block type="variables_set">
     <field name="VAR">photocell</field>
     <value name="VALUE">

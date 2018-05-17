@@ -1,1 +1,1 @@
-MSG.catPhotocell = "光敏电阻";
+MSG.catPhotocell = "光敏感测器";

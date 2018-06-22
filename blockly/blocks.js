@@ -16,6 +16,18 @@ Blockly.Blocks['photocell_new'] = {
   }
 };
 
+Blockly.Blocks['photocell_pin_get'] = {
+  init: function () {
+    this.appendDummyInput()
+      .appendField(Blockly.Msg.WEBDUINO_PHOTOCELL_PIN, "Pin")
+      .appendField(new Blockly.FieldDropdown([['A0','0'],['A3','3'],['A4','4'],['A5','5'],['A7','7']]), "pin_");
+    this.setOutput(true);
+    this.setColour(270);
+    this.setTooltip('');
+    this.setHelpUrl(mainUrl + 'basic/blockly/board-pin.html' + utmUrl);
+  }
+};
+
 Blockly.Blocks['photocell_detected'] = {
   init: function () {
     this.appendDummyInput()

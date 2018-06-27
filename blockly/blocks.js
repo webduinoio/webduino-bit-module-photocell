@@ -18,9 +18,17 @@ Blockly.Blocks['photocell_new'] = {
 
 Blockly.Blocks['photocell_pin_get'] = {
   init: function () {
+    function getPinDropdown() {
+      return [
+        ['1~ ( A4 )', '4'], 
+        ['2~ ( A5 )', '5'], 
+        ['5 ( A7 )', '7']
+      ];
+    }
+
     this.appendDummyInput()
       .appendField(Blockly.Msg.WEBDUINO_PHOTOCELL_PIN, "Pin")
-      .appendField(new Blockly.FieldDropdown([['1~ (A4)','4'],['2~ (A5)','5'],['5 (A7)','7']]), "pin_");
+      .appendField(new Blockly.FieldDropdown(getPinDropdown), "pin_");
     this.setOutput(true);
     this.setColour(270);
     this.setTooltip('');

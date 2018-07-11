@@ -1,6 +1,6 @@
 {
   "name": "webduino-module-bit-photocell",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Photocell Module for Webduino Bit",
   "main": "BitPhotocell-blockly.js",
   "scripts": {

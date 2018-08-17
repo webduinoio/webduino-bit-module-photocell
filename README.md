@@ -1,6 +1,6 @@
 # webduino-bit-module-photocell
 
-Module for photocell Webduino:bit.
+Module for photocell of Webduino:bit.
 
 ## Installation
 

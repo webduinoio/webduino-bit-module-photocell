@@ -1,9 +1,11 @@
 # webduino-bit-module-photocell
 
-Module for Webduino:bit Photocell.
+Module for photocell Webduino:bit.
 
 ## Installation
+
 #### bower
+
 ```sh
 bower install https://github.com/webduinoio/webduino-bit-module-photocell.git
 ```

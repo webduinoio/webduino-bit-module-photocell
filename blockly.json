@@ -1,11 +1,11 @@
 {
   "types": [
-    "photocell_new",
+    "photocell_new_bit",
     "photocell_detected",
     "photocell_val",
     "photocell_stop"
   ],
-  "category": "toolbox",
+  "category": "catMenu3",
   "scripts": [
     "blockly/blocks.js",
     "blockly/javascript.js"

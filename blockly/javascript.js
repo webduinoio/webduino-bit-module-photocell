@@ -1,4 +1,4 @@
-Blockly.JavaScript['photocell_new'] = function (block) {
+Blockly.JavaScript['photocell_new_bit'] = function (block) {
   var dropdown_pin_ = block.getFieldValue('pin_');
   var code = 'getPhotocell(board, ' + dropdown_pin_ + ')';
   return [code, Blockly.JavaScript.ORDER_ATOMIC];

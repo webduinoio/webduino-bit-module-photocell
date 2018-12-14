@@ -1,1 +1,1 @@
-MSG.catPhotocell = "Photocell";
+MSG.catPhotocell_bit = "Photocell";

@@ -1,14 +1,14 @@
-<category id="catPhotocell" index="8">
+<category id="catPhotocell_bit" index="8" tags="bit">
   <block type="variables_set">
     <field name="VAR">photocell</field>
     <value name="VALUE">
-      <block type="photocell_new"></block>
+      <block type="photocell_new_bit" tags="bit"></block>
     </value>
   </block>
   <block type="variables_set">
     <field name="VAR">photocell</field>
     <value name="VALUE">
-      <block type="photocell_pin_get">
+      <block type="photocell_pin_get" tags="bit">
         <value name="pin">
           <block type="pin_num">
             <field name="pin_">0</field>

@@ -1,1 +1,1 @@
-MSG.catPhotocell = "光敏感测器";
+MSG.catPhotocell_bit = "光敏感测器";

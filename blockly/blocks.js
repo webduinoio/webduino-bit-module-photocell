@@ -1,14 +1,14 @@
 var mainUrl = 'https://tutorials.webduino.io/zh-tw/docs/';
 var utmUrl = '?utm_source=cloud-blockly&utm_medium=contextMenu&utm_campaign=tutorials';
 
-Blockly.Blocks['photocell_new'] = {
+Blockly.Blocks['photocell_new_bit'] = {
   init: function () {
     this.appendDummyInput()
         .appendField(new Blockly.FieldDropdown([
           [Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_LEFT, '0'],
           [Blockly.Msg.WEBDUINO_PHOTOCELL_UPPER_RIGHT, '3'],
         ]), 'pin_')
-        .appendField(Blockly.Msg.WEBDUINO_PHOTOCELL);
+        .appendField(Blockly.Msg.WEBDUINO_PHOTOCELL_BIT);
     this.setOutput(true);
     this.setColour(230);
     this.setTooltip('');
